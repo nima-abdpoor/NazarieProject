@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class FirstInput {
     private String[] State = new String[]{"q1", "q2", "qf"};
+    enum  possibility  {a, b, ab,lambda};
+    possibility possibility;
     private int state;
 
     private String input;
@@ -20,34 +22,43 @@ public class FirstInput {
         stack = new Stack();
     }
 
-    public boolean commit() throws IndexOutOfBoundsException{
+
+
+    public boolean commit() throws IndexOutOfBoundsException {
+        possibility = possibility.ab;
         InputReader inputReader = new InputReader(input);
         for (int i = 0; i < input.length() + 1; ++i) {
             symbol = inputReader.GetInputSymbol();
             switch (symbol) {
                 case "a":
-                    stack.Push("1");
-                    setState(0);
-                    ShowState();
-                    break;
-                case "b":
-                    stack.Pop();
-                    setState(1);
-                    ShowState();
-                    break;
-                case "$":
-                    if (stack.Pop().equals("$")) {
-                        setState(2);
-                        ShowState();
+                    if (possibility.equals(possibility.ab)){
+                        stack.Push("1");
+                        setState(0);
                     }
-                    break;
-            }
+                    else return false;
+            break;
+            case "b":
+                possibility = possibility.b;
+                if (stack.Pop().equals("1") && possibility.equals(possibility.b)) {
+                    setState(1);
+                }
+                break;
+            case "$":
+                if (stack.Pop().equals("$")) {
+                    setState(2);
+                }
+                break;
         }
-        if (getState() == 2) {
-            return true;
-        } else
-            return false;
     }
+        if(
+
+    getState() ==2)
+
+    {
+        return true;
+    } else
+            return false;
+}
 
     private void ShowState() {
         System.out.println(State[getState()]);
@@ -59,5 +70,6 @@ public class FirstInput {
 
     public void setState(int state) {
         this.state = state;
+        ShowState();
     }
 }
