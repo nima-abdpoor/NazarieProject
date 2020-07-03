@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f9d81cf-53fa-4a0f-85da-5681b8448c92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NazariehProject/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NazariehProject/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NazariehProject/com/company/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NazariehProject/com/company/Stack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593753716433</updated>
-      <workItem from="1593753722398" duration="17291000" />
+      <workItem from="1593753722398" duration="17338000" />
     </task>
     <task id="LOCAL-00001" summary="possibility added to complete reject times.">
       <created>1593762500821</created>
@@ -84,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593772151768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project completed.">
+      <created>1593777655710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593777655710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,33 +98,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="possibility added to complete reject times." />
     <MESSAGE value="the second input type with some math problems added and a method to handle the reject reason added." />
-    <option name="LAST_COMMIT_MESSAGE" value="the second input type with some math problems added and a method to handle the reject reason added." />
+    <MESSAGE value="project completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="project completed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1593761693613">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1593761693613" />
-    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1593772148941">
+    <state x="277" y="40" key="CommitChangelistDialog2" timestamp="1593777653344">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1593772148941" />
-    <state width="1493" height="571" key="GridCell.Tab.0.bottom" timestamp="1593777621560">
+    <state x="277" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1593777653344" />
+    <state width="1493" height="605" key="GridCell.Tab.0.bottom" timestamp="1593777672103">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="571" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1593777621560" />
-    <state width="1493" height="571" key="GridCell.Tab.0.center" timestamp="1593777621560">
+    <state width="1493" height="605" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1593777672103" />
+    <state width="1493" height="605" key="GridCell.Tab.0.center" timestamp="1593777672102">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="571" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1593777621560" />
-    <state width="1493" height="571" key="GridCell.Tab.0.left" timestamp="1593777621560">
+    <state width="1493" height="605" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1593777672102" />
+    <state width="1493" height="605" key="GridCell.Tab.0.left" timestamp="1593777672102">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="571" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1593777621560" />
-    <state width="1493" height="571" key="GridCell.Tab.0.right" timestamp="1593777621560">
+    <state width="1493" height="605" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1593777672102" />
+    <state width="1493" height="605" key="GridCell.Tab.0.right" timestamp="1593777672103">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="571" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1593777621560" />
+    <state width="1493" height="605" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1593777672103" />
     <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593777625634">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
