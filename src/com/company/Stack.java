@@ -24,4 +24,7 @@ public class Stack {
             throw new IndexOutOfBoundsException();
         }
     }
+    public int size(){
+        return index;
+    }
 }
